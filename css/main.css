@@ -157,7 +157,7 @@ h1:hover {
     from {
         transform: scale(1.3);
         color: #f7e018;
-        text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+        text-shadow: 4px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
             -1px 1px 0 #000, 1px 1px 0 #000;
     }
     to {
@@ -174,7 +174,7 @@ h1:hover {
     to {
         transform: scale(1.3);
         color: #f7e018;
-        text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+        text-shadow: 4px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
             -1px 1px 0 #000, 1px 1px 0 #000;
     }
 }
@@ -204,7 +204,7 @@ h1:hover {
     font-size: 1.3rem;
     width: 90%;
     grid-area: 2/1/3/2;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 #about img {
