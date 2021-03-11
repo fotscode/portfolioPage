@@ -364,6 +364,8 @@ h1:hover {
 
 #email-input{
 	height:40px;
+	outline:none;
+	border:1px solid black;
 }
 
 #text-input{
