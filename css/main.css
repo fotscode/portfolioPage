@@ -298,7 +298,7 @@ h1:hover {
 #contact {
     width: 100%;
     background: linear-gradient(0deg, #c3feff, #c3feff, #c3feff, #ffc5eb);
-    padding: 50px 0 0 0;
+    padding: 60px 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -325,6 +325,50 @@ h1:hover {
 
 #contact > ul > li > a {
     color: black;
+}
+
+#contact-form{
+	width:100%;
+	padding: 3rem 0; display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact-form form{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-width:60%;
+	gap:30px;
+}
+
+.shadow{
+	box-shadow: 3px 3px black;
+}
+
+
+#email-input:focus,#text-input:focus{
+	outline:none;
+	border:1px solid black;
+	box-shadow: 3px 3px #ffc5eb;
+}
+
+
+#email-input,#text-input{
+	width:100%;
+	font-family:Open Sans, sans-serif;
+	font-size:1rem;
+	padding:10px;
+}
+
+#email-input{
+	height:40px;
+}
+
+#text-input{
+	height:200px;
+	resize:none;
 }
 
 footer {
@@ -386,4 +430,8 @@ footer > p {
         margin: 0;
         padding: 10px;
     }
+
+		#contact-form form{
+			width:80%;
+		}
 }
