@@ -340,7 +340,8 @@ h1:hover {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	min-width:60%;
+	max-width:700px;
+	width:80%;
 	gap:30px;
 }
 
@@ -433,8 +434,8 @@ footer > p {
         margin: 0;
         padding: 10px;
     }
-
-		#contact-form form{
-			width:80%;
-		}
 }
+
+
+
+
