@@ -3,6 +3,8 @@
 	padding: 0;
 	user-select: none;
 	-moz-user-select: none; /* Firefox */
+	-moz-osx-font-smoothing: grayscale;
+
 }
 
 html,
@@ -30,7 +32,7 @@ a {
 img {
 	width: 100%;
 	height: auto;
-	max-width: 300px;
+	image-rendering: -webkit-optimize-contrast;
 }
 
 button:active {
@@ -178,6 +180,7 @@ h2 {
 }
 
 #about img {
+	image-rendering: auto;
 	grid-area: 1/2/3/3;
 	max-width:300px;
 	justify-self:end;
