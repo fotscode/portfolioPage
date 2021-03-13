@@ -1,281 +1,294 @@
 * {
-    margin: 0;
-    padding: 0;
-    user-select: none;
-    -moz-user-select: none; /* Firefox */
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	-moz-user-select: none; /* Firefox */
 }
 
 html,
 body {
-    font-family: Open Sans;
-    scroll-behavior: smooth;
+	font-family: Open Sans;
+	scroll-behavior: smooth;
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 li {
-    list-style: none;
-    padding: 10px;
+	list-style: none;
+	padding: 10px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+	text-decoration: none;
+	color: black;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
+	width: 100%;
+	height: auto;
+	max-width: 300px;
 }
 
 button:active {
-    border: 0;
-    outline: 0;
+	border: 0;
+	outline: 0;
 }
 
 .outline {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-        1px 1px 0 #000;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+	1px 1px 0 #000;
 }
 
 .highlight {
-    color: #f7e018;
-    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-        -1px 1px 0 #000, 1px 1px 0 #000;
+	color: #f7e018;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+	-1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 nav {
-    position: fixed;
-    width: 100%;
-    height: 40px;
-    display: flex;
-    margin-top: 10px;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	display: flex;
+	margin-top: 10px;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
 }
 
 #navbar > ul {
-    background-color: #c3feff;
-    color: black;
-    border: 1px solid black;
-    font-family: Bebas Neue;
-    font-size: 1.4rem;
+	background-color: #c3feff;
+	color: black;
+	border: 1px solid black;
+	font-family: Bebas Neue;
+	font-size: 1.4rem;
 }
 
 #navbar > ul > li {
-    padding: 0;
+	padding: 0;
 }
 
 .nav_link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 100px;
-		transition: all .2s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 100px;
+	transition: all .2s ease-in-out;
 }
 
 .nav_link:hover {
-    color: white;
-    background-color: #000;
+	color: white;
+	background-color: #000;
 }
 
 #scrollTop {
-    bottom: 20px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    z-index: -1;
-    border-radius: 50%;
-    position: fixed;
-    font-family: Bebas Neue;
+	bottom: 20px;
+	right: 30px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	z-index: -1;
+	border-radius: 50%;
+	position: fixed;
+	font-family: Bebas Neue;
 }
 
 #welcome-section {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: linear-gradient(180deg, #c3feff, #c3feff, #c3feff, #ffc5eb);
-    color: #000;
-    font-family: Bebas Neue, sans-serif;
-    gap: 30px;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: linear-gradient(180deg, #c3feff, #c3feff, #c3feff, #ffc5eb);
+	color: #000;
+	font-family: Bebas Neue, sans-serif;
+	gap: 30px;
 }
 
 
 h2,
 h1 {
-    text-align: center;
-		max-width:100%;
-		width:70%;
+	text-align: center;
+	max-width:100%;
+	width:70%;
 }
 
 .grow {
-    transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .grow:hover {
-    transform: scale(1.3);
-    color:#f7e018;
-    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-            -1px 1px 0 #000, 1px 1px 0 #000;
+	transform: scale(1.3);
+	color:#f7e018;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+	-1px 1px 0 #000, 1px 1px 0 #000;
 
 }
 
 h1 {
-    font-size: 7.5rem;
-    letter-spacing: 0.07em;
+	font-size: 7.5rem;
+	letter-spacing: 0.07em;
 }
 
 h2 {
-    font-size: 3rem;
-    letter-spacing: 0.05em;
+	font-size: 3rem;
+	letter-spacing: 0.05em;
 }
 
 
 #about {
-    background-color: #c3feff;
-    margin-top: 50px;
-    height: auto;
-    display: grid;
-    padding: 30px;
-    padding-left: 60px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    grid-gap: 0;
+	background-color: #c3feff;
+	margin-top: 50px;
+	height: auto;
+	display: grid;
+	padding:30px 60px;
+	padding-top:-10px;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns:repeat(auto-fill, 1fr) 30%;
+
+
+	grid-gap: 0;
 }
 
 #about header {
-    font-family: Bebas Neue;
-    font-size: 5rem;
-    grid-area: 1/1/2/2;
-    letter-spacing: 0.05em;
+	font-family: Bebas Neue;
+	padding-bottom: 30px;
+	width:100%;
+	font-size: 5rem;
+	grid-area: 1/1/2/2;
+	letter-spacing: 0.05em;
+	padding-left:10px;
 }
 
-#about p {
-    font-size: 1.3rem;
-    width: 90%;
-    grid-area: 2/1/3/2;
-    word-break: break-word;
+#about ul {
+	font-size: 1.3rem;
+	width: 90%;
+	grid-area: 2/1/3/2;
+	word-break: break-word;
+	display:flex;
+	flex-direction: column;
+	gap:15px;
 }
 
 #about img {
-    grid-area: 1/2/3/3;
-    width: 250px;
+	grid-area: 1/2/3/3;
+	max-width:300px;
+	justify-self:end;
+}
+
+#about a{
+	text-decoration:underline;
 }
 
 #projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 40px;
 }
 
 #project-box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
-    margin-top: 50px;
-    width: 100%;
-    max-width: 1280px;
-    align-items: center;
-    justify-items: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 4rem;
+	margin-top: 50px;
+	width: 100%;
+	max-width: 1280px;
+	align-items: center;
+	justify-items: center;
 }
 
 .project-tile {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    background-color: #ffc5eb;
-    border: 1px solid black;
-		transition: all .1s ease-out;
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	background-color: #ffc5eb;
+	border: 1px solid black;
+	transition: all .1s ease-out;
 }
 
 .project-tile:hover {
-    transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .project-title {
-    color: black;
-    font-family: Bebas Neue;
-    font-size: 1.5rem;
-    padding: 10px;
-    margin-top: -5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	color: black;
+	font-family: Bebas Neue;
+	font-size: 1.5rem;
+	padding: 10px;
+	margin-top: -5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #btn-container {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .btn {
-    background-color: #f7e018;
-    color: black;
-    border: 1px solid black;
-    width: 100px;
-    height: 50px;
-    font-family: Bebas Neue;
-    font-size: 1.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-		padding-top:3px;
-    cursor: pointer;
-		transition: all .2s ease-in-out;
+	background-color: #f7e018;
+	color: black;
+	border: 1px solid black;
+	width: 100px;
+	height: 50px;
+	font-family: Bebas Neue;
+	font-size: 1.6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top:3px;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+	outline:none;
 }
 
 .btn:hover {
-		color:white;
-		background-color: black;
+	color:white;
+	background-color: black;
 }
 
 #contact {
-    width: 100%;
-    background: linear-gradient(0deg, #c3feff, #c3feff, #c3feff, #ffc5eb);
-    padding: 60px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	width: 100%;
+	background: linear-gradient(0deg, #c3feff, #c3feff, #c3feff, #ffc5eb);
+	padding: 60px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 #contact > header {
-    font-family: Bebas Neue;
-    font-size: 5rem;
-    font-weight: bolder;
-    text-align: center;
-    letter-spacing: 0.05em;
+	font-family: Bebas Neue;
+	font-size: 5rem;
+	font-weight: bolder;
+	text-align: center;
+	letter-spacing: 0.05em;
 }
 
 #contact > h3 {
-    font-weight: lighter;
-    font-size: 1.3rem;
-    text-align: center;
+	font-weight: lighter;
+	font-size: 1.3rem;
+	text-align: center;
 }
 
 #contact > ul {
-    font-size: 50px;
+	font-size: 50px;
 }
 
 #contact > ul > li > a {
-    color: black;
+	color: black;
 }
 
 #contact-form{
@@ -327,66 +340,80 @@ h2 {
 }
 
 footer {
-    background-color: #c3feff;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
+	background-color: #c3feff;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
 }
 
 footer > p {
-    font-family: Bebas Neue;
-    font-size: 1.3rem;
+	font-family: Bebas Neue;
+	font-size: 1.3rem;
+}
+
+@media (max-width: 1100px) {
+	#about{
+		padding:15px 30px;
+	}
+	#about img {
+		grid-area: 1/2/2/3;
+		width: 150px;
+		padding-bottom:30px;
+	}
+
+	#about ul {
+		grid-area: 2/1/3/3;
+		width:100%;
+		font-size:1.1rem;
+	}
+
+	#about header {
+		width:100%;
+		font-size: 5rem;
+	}
 }
 
 @media (max-width: 700px) {
-    #about img {
-        grid-area: 1/2/2/3;
-        width: 150px;
-    }
 
-    #about p {
-        grid-area: 2/1/3/3;
-    }
 
-    #about header {
-        text-align: center;
-        font-size: 4rem;
-    }
+	h1 {
+		font-size: 5rem;
+		letter-spacing: 0.05em;
+	}
 
-    h1 {
-        font-size: 5rem;
-        letter-spacing: 0.05em;
-    }
+	h2 {
+		font-size: 2rem;
+		letter-spacing: 0.03em;
+	}
 
-    h2 {
-        font-size: 2rem;
-        letter-spacing: 0.03em;
-    }
+	h1,
+	h2 {
+		margin: 10px;
+		padding: 10px;
+	}
 
-    h1,
-    h2 {
-        margin: 10px;
-        padding: 10px;
-    }
+	#contact > header {
+		font-size: 3.7rem;
+		letter-spacing: 0.03em;
+	}
 
-    #contact > header {
-        font-size: 3.7rem;
-        letter-spacing: 0.03em;
-    }
+	#contact > h3 {
+		font-size: 1.3rem;
+		letter-spacing: 0.03em;
+	}
 
-    #contact > h3 {
-        font-size: 1.3rem;
-        letter-spacing: 0.03em;
-    }
-
-    #contact > header,
-    h3 {
-        margin: 0;
-        padding: 10px;
-    }
+	#contact > header,
+	h3 {
+		margin: 0;
+		padding: 10px;
+	}
 }
 
 
 
-
+@media (max-width:600px){
+	#about header{
+		text-align: center;
+	}
+}
