@@ -153,9 +153,6 @@ h2 {
 	padding-top:-10px;
 	align-items: center;
 	justify-content: center;
-	grid-template-columns:repeat(auto-fill, 1fr) 30%;
-
-
 	grid-gap: 0;
 }
 
@@ -355,6 +352,18 @@ footer > p {
 	font-size: 1.3rem;
 }
 
+@media (max-height:600px){
+	#welcome-section{
+		gap:0;
+	}
+	h1{
+		font-size:5rem;
+	}
+	h2{
+		font-size:2rem;
+	}
+}
+
 @media (max-width: 1100px) {
 
 	h1{
@@ -387,7 +396,9 @@ footer > p {
 }
 
 @media (max-width: 700px) {
-
+	#welcome-section{
+		gap:10px;
+	}
 
 	h1 {
 		font-size: 5rem;
@@ -429,18 +440,55 @@ footer > p {
 		text-align: center;
 		font-size:4rem;
 	}
+
+	h1{
+		font-size:4.5rem;
+	}
+
+	h2{
+		font-size:1.7rem;
+	}
 }
 
-@media (max-height:600px){
-	#welcome-section{
-		gap:0;
-	}
+
+@media (max-width:350px){
 	h1{
-		font-size:5rem;
+		font-size:3.5rem;
 	}
+
 	h2{
-		font-size:2rem;
+		font-size:1.5rem;
+	}
+
+	.nav_link{
+		width:70px;
+	}
+
+	#project-box{
+		grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+	}
+
+	.project-tile{
+		max-width: 200px;
+	}
+
+	#about header, #contact header{
+		font-size:3rem;
+	}
+
+	#contact h3{
+		font-size: 0.9rem;
+	}
+
+	#about img{
+		width:100px;
+	}
+
+	#about ul{
+		font-size:1rem;
 	}
 }
+
+
 
 
